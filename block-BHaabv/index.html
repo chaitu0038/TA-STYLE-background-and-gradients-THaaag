@@ -2,74 +2,195 @@
 <html>
     <head>
         <meta charset="utf-8">
+        <meta name='viewport' content='width=device-width, initial-scale=1'>
+        <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
         <title>Background 2</title>
         <link href="style.css" rel="stylesheet">
     </head>
     <body>
        <header class="header">
-            <div class=" container flex">
+           <div class="container flex">
                <div>
-                    <h1>Social Media Dashboard</h1>
-                    <p>Total Followers: 23,004</p>
+                   <h1>Social Media Dashboard</h1>
+                   <h4>Total Followers: 23,004</h4>
                </div>
-                <nav class="nav flex">
-                    <a href="#">Dark Mode</a>
-                    <a class="switch" href="#">
-                        <input type="checkbox">
-                        <span class="slider round"></span>
-                    </a>
-                </nav>
-            </div>
+               <div class="btn-container flex">
+                   <span>Dark Mode</span>
+                   <div class="btn">
+                       <div class="circle"></div>
+                   </div>
+               </div>
+           </div>
        </header>
        <main>
-           <section>
+           <section class="card-container">
+               <div class="container flex">
+                   <div class="card">
+                       <div class="border-top"></div>
+                       <header class="flex center">
+                           <img src="./icons/facebook.png" alt="fb" height="20" width="20"><p>@nathanf</p>
+                       </header>
+                       <div>
+                           <h2>1987</h2>
+                           <p class="p">Followers</p>
+                       </div>
+                       <footer class="card-footer flex center">
+                        <img src="./icons/arrowup.jpg" alt="up" height="10" width="10">
+                        <span>12 Today</span>
+                       </footer>
+                   </div>
+                   <div class="card">
+                    <div class="border-top"></div>
+                    <header class="flex center">
+                        <img src="./icons/twitter.png" alt="twt" height="20" width="20"><p>@nathanf</p>
+                    </header>
+                    <div>
+                        <h2>1044</h2>
+                        <p class="p">Followers</p>
+                    </div>
+                    <footer class="card-footer flex center">
+                     <img src="./icons/arrowup.jpg" alt="up" height="10" width="10">
+                     <span>99 Today</span>
+                    </footer>
+                </div>
+                <div class="card">
+                    <div class="border-top1"></div>
+                    <header class="flex center">
+                        <img src="./icons/instagram.png" alt="twt" height="20" width="20"><p>@nathanf</p>
+                    </header>
+                    <div>
+                        <h2>11k</h2>
+                        <p class="p">Followers</p>
+                    </div>
+                    <footer class="card-footer flex center">
+                     <img src="./icons/arrowup.jpg" alt="up" height="10" width="10">
+                     <span>1099 Today</span>
+                    </footer>
+                </div>
+                <div class="card">
+                    <div class="border-top2"></div>
+                    <header class="flex center">
+                        <img src="./icons/youtube.png" alt="youtube" height="20" width="20"><p>@realnathanf</p>
+                    </header>
+                    <div>
+                        <h2>8239</h2>
+                        <p class="p">Subscribers</p>
+                    </div>
+                    <footer class="card-footer flex center">
+                     <img src="./icons/arrow-down.jpg" alt="down" height="10" width="10">
+                     <span>1099 Today</span>
+                    </footer>
+                </div>
+               </div>
+           </section>
+           <section class="over-view card-container">
                 <div class="container">
-                    <div class="col flex">
-                        <div class="box box1">
-                            <div>
-                                <i>
-                                    <img src="./icons/facebook.png" alt="fb" height="20" width="20">
-                                </i>
-                                <small>&#64;nathanf</small>
-                                <h5>1987</h5>
-                                <p class="letterspace">FOLLOWERS</p>
-                                <small class="small">12 Today</small>
+                    <h2>Overview - Today</h2>
+                    <div class="flex wrap">
+                            <div class="card1 Overview">
+                                <header class="card-header flex">
+                                    <h4>Page Views</h4>
+                                    <img src="./icons/facebook.png" alt="fb" height="30" width="30">
+                                </header>
+                                <div class="flex">
+                                    <h3>87</h3>
+                                    <div class="card-footer">
+                                        <img src="./icons/arrowup.jpg" alt="up" height="10" width="10">
+                                        <span>3%</span>
+                                    </div>
+                                </div>
                             </div>
-                        </div>
-                    </div>
-                    <div class="col flex">
-                        <div class="box box2">
-                            <div>
-                                <i>
-                                    <img src="./icons/twitter.png" alt="twt" height="20" width="20">
-                                </i>
-                                <small>&#64;nathanf</small>
-                                <h5>1987</h5>
-                                <p class="letterspace">FOLLOWERS</p>
+                            <div class="card1 Overview">
+                                <header class="card-header flex">
+                                    <h4>Likes</h4>
+                                    <img src="./icons/facebook.png" alt="fb" height="30" width="30">
+                                </header>
+                                <div class="flex">
+                                    <h3>52</h3>
+                                    <div class="card-footer">
+                                        <img src="./icons/arrow-down.jpg" alt="down" height="10" width="10">
+                                        <span>2%</span>
+                                    </div>
+                                </div>
                             </div>
-                        </div>
-                    </div>
-                    <div class="col flex">
-                        <div class="box box3">
-                            <div>
-                                <i>
-                                    <img src="./icons/instagram.png" alt="insta" height="20" width="20">
-                                </i>
-                                <small>&#64;realnathanf</small>
-                                <h5>1987</h5>
-                                <p class="letterspace">FOLLOWERS</p>
+                            <div class="card1 Overview">
+                                <header class="card-header flex">
+                                    <h4>Likes</h4>
+                                    <img src="./icons/instagram.png" alt="insta" height="30" width="30">
+                                </header>
+                                <div class="flex">
+                                    <h3>5462</h3>
+                                    <div class="card-footer">
+                                        <img src="./icons/arrowup.jpg" alt="up" height="10" width="10">
+                                        <span>2257%</span>
+                                    </div>
+                                </div>
                             </div>
-                        </div>
-                    </div>
-                    <div class="col flex">
-                        <div class="box box4"> <div>
-                            <i>
-                                <img src="./icons/youtube.png" alt="youtube" height="20" width="20">
-                            </i>
-                            <small>&#64;NathanF.</small>
-                            <h5>8239</h5>
-                            <p class="letterspace">SUBSCRIBERS</p>
-                        </div>
+                            <div class="card1 Overview">
+                                <header class="card-header flex">
+                                    <h4>Profiles Views</h4>
+                                    <img src="./icons/instagram.png" alt="insta" height="30" width="30">
+                                </header>
+                                <div class="flex">
+                                    <h3>52k</h3>
+                                    <div class="card-footer">
+                                        <img src="./icons/arrowup.jpg" alt="up" height="10" width="10">
+                                        <span>1375%</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card1 Overview">
+                                <header class="card-header flex">
+                                    <h4>Likes</h4>
+                                    <img src="./icons/twitter.png" alt="twt" height="30" width="30">
+                                </header>
+                                <div class="flex">
+                                    <h3>117</h3>
+                                    <div class="card-footer">
+                                        <img src="./icons/arrowup.jpg" alt="up" height="10" width="10">
+                                        <span>303%</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card1 Overview">
+                                <header class="card-header flex">
+                                    <h4>Likes</h4>
+                                    <img src="./icons/twitter.png" alt="twt" height="30" width="30">
+                                </header>
+                                <div class="flex">
+                                    <h3>507</h3>
+                                    <div class="card-footer">
+                                        <img src="./icons/arrowup.jpg" alt="up" height="10" width="10">
+                                        <span>553%</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card1 Overview">
+                                <header class="card-header flex">
+                                    <h4>Likes</h4>
+                                    <img src="./icons/youtube.png" alt="youtube" height="30" width="30">
+                                </header>
+                                <div class="flex">
+                                    <h3>107</h3>
+                                    <div class="card-footer">
+                                        <img src="./icons/arrow-down.jpg" alt="down" height="10" width="10">
+                                        <span>19%</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card1 Overview">
+                                <header class="card-header flex">
+                                    <h4>Total Views</h4>
+                                    <img src="./icons/youtube.png" alt="youtube" height="30" width="30">
+                                </header>
+                                <div class="flex">
+                                    <h3>1407</h3>
+                                    <div class="card-footer">
+                                        <img src="./icons/arrow-down.jpg" alt="down" height="10" width="10">
+                                        <span>12%</span>
+                                    </div>
+                                </div>
+                            </div>
                     </div>
                 </div>
            </section>
